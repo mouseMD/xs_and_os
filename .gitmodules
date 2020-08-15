@@ -1,0 +1,3 @@
+[submodule "xo_app"]
+	path = xo_app
+	url = git@github.com:mouseMD/xo_app.git
