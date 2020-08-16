@@ -1,3 +1,6 @@
 [submodule "xo_app"]
 	path = xo_app
 	url = git@github.com:mouseMD/xo_app.git
+[submodule "xo_server"]
+	path = xo_server
+	url = git@github.com:mouseMD/xo_server.git
