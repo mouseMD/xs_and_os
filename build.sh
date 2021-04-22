@@ -1,0 +1,1 @@
+docker build -t xo-app -f ./docker/Dockerfile ./xo_app
