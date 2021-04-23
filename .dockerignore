@@ -1,0 +1,15 @@
+.git
+docker
+xo_bot
+.dockerignore
+.gitmodules
+build.sh
+run.sh
+README.md
+xo_server/venv
+xo_server/__pycache__
+xo_server/.idea
+xo_app/drivers
+xo_app/external
+xo_app/release
+xo_app/*.user

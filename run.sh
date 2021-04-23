@@ -1,1 +1,1 @@
-docker run -it xo-app "/bin/bash"
+docker run -it --rm xo-app "/bin/bash"
