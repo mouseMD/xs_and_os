@@ -1,0 +1,18 @@
+version: "3.7"
+services: 
+  db: 
+    image: postgres
+  redis: 
+    image: redis
+  xo-app: 
+    build: 
+      context: ".."
+      dockerfile: docker/Dockerfile
+    depends_on: 
+      - redis
+      - db
+    links: 
+      - redis
+      - db
+    ports: 
+      - "8080:8080"

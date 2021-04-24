@@ -1,1 +1,1 @@
-docker run -it --rm xo-app "/bin/bash"
+docker run -d --rm -p 8080:8080 xo-app server.py
